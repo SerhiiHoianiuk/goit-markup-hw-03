@@ -58,6 +58,10 @@ body {
   margin: -1px;
 }
 
+.heder {
+  border: 1px solid #ececec;
+}
+
 /* logo */
 
 .logo {
@@ -152,9 +156,7 @@ body {
 /* hero */
 
 .hero {
-  /* margin: 0 auto; */
-  /* padding-top: 200px;
-  padding-bottom: 200px; */
+  padding: 200px 0;
   background-color: var(--bg-hero-color);
 }
 .hero-title {
@@ -166,6 +168,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* feature-list */
@@ -204,7 +209,29 @@ body {
   text-align: center;
 }
 
+.team {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 /* portfolio-list */
+
+.img-portfolio {
+  margin-bottom: 20px;
+}
+
+.portfolio-title {
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-section {
+  background-color: red;
+}
+
+.portfolio-filter {
+  margin-bottom: 34px;
+}
 
 .portfolio-list .project {
   color: var(--title-text-color);
@@ -212,6 +239,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .portfolio-list .text {
