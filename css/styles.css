@@ -21,7 +21,8 @@
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .heder {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /* logo */
@@ -184,6 +185,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 26px;
 }
 
 .feature-list .text {
@@ -218,15 +220,18 @@ body {
 /* portfolio-list */
 
 .img-portfolio {
-  margin-bottom: 20px;
+  display: block;
 }
 
-.portfolio-title {
+.img-text {
   border: 1px solid #eeeeee;
+  border-top: none;
+  padding: 20px 24px;
+  /* background-color: #2196f3; */
 }
 
-.portfolio-section {
-  background-color: red;
+.portfolio-list {
+  /* background-color: greenyellow; */
 }
 
 .portfolio-filter {
