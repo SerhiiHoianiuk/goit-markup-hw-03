@@ -77,6 +77,8 @@ body {
   line-height: 1.19;
   text-decoration: none;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo .accent {
   color: var(--accent-color);
@@ -153,6 +155,8 @@ body {
 .addres-header .link {
   color: var(--primary-text-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .addres-header .link:hover,
 .addres-header .link:focus {
